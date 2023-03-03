@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+@font-face {
+    font-family: 'Monster';
+    src: url(estilo/Montserrat-Italic-VariableFont_wght.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Zagora';
+    src: url(estilo/Zagora.ttf) format(truetype);
+} 
+
+@font-face {
+    font-family: 'Bestigia';
+    src: url(bestigia.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: "Stora";
+    src: url(estilo/Stora.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Storal';
+    src: url(estilo/Stora-Light.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'Gaze';
+    src: url(estilo/Gazebo\ DEMO!!!.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Koo';
+    src: url(estilo/KoolturaDEMO.otf) format(opentype);
+}
+
+@font-face {
+    font-family: 'Los';
+    src: url(estilo/Lostar.ttf) format(truetype);
+}
+
+header{
+    color: white;
+    background-color: black ;
+    
+}
+
+header > h1{
+    font-family: 'Los';
+    color: white;
+    
+    font-size: 5em;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+header > p{
+    
+    font-family: 'Zagora';
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+header p:hover{
+    color: black;
+}
+
+section{
+    text-align: center;
+    font-size: 2em;
+}
+
+section.normal{
+    background-color: gray;
+}
