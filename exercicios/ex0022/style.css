@@ -50,9 +50,10 @@
 
 header{
     color: white;
-    
+    background-image:linear-gradient(to bottom, rgba(224, 169, 103, 0.664), rgba(255, 165, 56, 0.89), rgba(116, 74, 23, 0.733) );
     font-size: 6.5em;
     text-align: center;    
+    padding: 10px;
 }
 
 header > h1{
@@ -64,12 +65,12 @@ header > h1{
 
 main{
     text-align: justify;
-    background-color: rgb(51, 51, 51);
+    background-image: linear-gradient(to bottom, rgba(230, 153, 11, 0.562), rgb(116, 116, 3)) ;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
     background-attachment: fixed;
-    padding: 10px;
+    padding: 20px;
     margin: 10px;
     
 }
@@ -91,7 +92,7 @@ section > p{
     text-align: center;
 }
 
-section.primeiro{
+
    
-}
+
 
