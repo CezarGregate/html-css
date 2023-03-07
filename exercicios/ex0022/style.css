@@ -54,7 +54,9 @@ header{
     font-size: 6.5em;
     text-align: center;    
     padding: 10px;
-}
+} 
+
+
 
 header > h1{
     font-family: 'Los';
@@ -65,7 +67,7 @@ header > h1{
 
 main{
     text-align: justify;
-    background-image: linear-gradient(to bottom, rgba(230, 153, 11, 0.562), rgb(116, 116, 3)) ;
+    background-image: linear-gradient(to bottom, rgba(230, 153, 11, 0.562), rgb(116, 116, 3) ) ;
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
@@ -91,6 +93,8 @@ section > p{
     font-size: 2em;
     text-align: center;
 }
+
+
 
 
    
