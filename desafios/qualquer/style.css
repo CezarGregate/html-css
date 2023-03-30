@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: Moli;
+    src: url(Real\ Magic.otf) format(opentype);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: linear-gradient(to top, #012030, #45C4B0);
+}
+
+header{
+    background-image: linear-gradient(to top, #8C4130, #F2622E, #F2C84B);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header > h1{
+    font-family: 'Moli';
+    font-weight: normal;
+    font-size: 10em;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.445);
+}
+
+header > p{
+    font-size: 1.5em;
+    max-width: 600px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: auto;
+    padding-bottom: 50px;
+    
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-image:linear-gradient(to top, #F2C84B,#F28B30);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
+    border-radius: 0px 0px 10px 10px;
+}
+
+main  h1{
+    font-size: 1.8em;
+    background-image: linear-gradient(to right, #D94929, transparent);
+    text-indent: 8px;
+    border-radius: 5px;
+}
+
+div{
+    text-align: center;
+   
+}
+
+section#redes-sociais{
+    text-align: right;
+    padding : 0px;
+    height: 0px;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid rgba(255, 255, 255, 0.644);
+    box-shadow: 5px 5px 10px black;
+    transition: transform .3s, border .5s;
+    
+}
