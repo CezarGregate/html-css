@@ -1,1 +1,1 @@
-parade ser gay
+para de ser gay
